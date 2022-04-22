@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.altezza {
+    height: 50px;
+    color: white;
+}
+
+header img {
+    width: 40%;
+    height: auto;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+.riga {
+    height: 2px;
+    background-color: white;
+    width: 100px;
+}
+
+.riga-black {
+    height: 2px;
+    background-color: black;
+    width: 100px;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+h1, h3 {
+    color: white;
+}
+
+h3 {
+    font-size: 10px;
+}
