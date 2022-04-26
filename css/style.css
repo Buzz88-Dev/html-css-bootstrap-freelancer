@@ -118,7 +118,7 @@ p {
 @media screen and (min-width: 768px) {
 
     .p-lr {
-        padding: 0 60px;
+        padding: 0 100px;
     }
 
     header nav .container-fluid a {
