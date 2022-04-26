@@ -59,6 +59,11 @@ p {
     border: none;
 }
 
+.icons {
+    width: 40px;
+    height: auto;
+}
+
 /* COLOR */
 .background-darkgrey {
     background-color: rgb(68, 64, 64);
