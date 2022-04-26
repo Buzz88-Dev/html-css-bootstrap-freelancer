@@ -49,14 +49,14 @@ p {
     width: 50px;
 }
 
-.border-none {
-    border: none;
-}
-
 .line-two {
     height: 1px;
     width: 10px;
     margin: 0px 4px;
+}
+
+.border-none {
+    border: none;
 }
 
 /* COLOR */
@@ -73,7 +73,7 @@ p {
 }
 
 
-/* MEDIA QUERY */
+/***** MEDIA QUERY *****/
 
 @media screen and (min-width: 576px) {
 
