@@ -14,19 +14,30 @@
     <!--header-->
     <header>
         <!--nav-->
-        <div class="container-fluid bg-secondary">
-            <nav class="d-flex justify-content-between text-white pt-3 pb-3">
-                <a>START BOOTSTRAP</a>
-                <div class="d-flex justify-content-end">
-                    <a class="text-white" href="#">PORTFOLIO</a> 
-                    <a class="text-white mx-4" href="#">ABOUT</a> 
-                    <a class="text-white" href="#">CONTACT</a> 
+        <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light background-darkgrey">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler background-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-
+            </div>
+        </nav>
+       
         <!--header block-->
-        <div class="container-fluid bg-info">
+        <div class="container-fluid background-aqua">
             <div class="d-flex flex-column align-items-center text-white pt-3 pb-3">
                 <div class="text-center mb-3">
                     <img src="img/avatar.svg">
@@ -38,9 +49,11 @@
                     <div class="riga bg-light"></div>
                 </div>
                 <div class="d-flex justify-content-center align-items-center">
-                    <h3>GRAPHIC ARTIST</h3>
-                    <h3>WEB DESIGNER</h3>
-                    <h3>GRAPHIC ILLUSTRATOR</h3>
+                    <h5>GRAPHIC ARTIST</h5>
+                    <div class="riga-two bg-light"></div>
+                    <h5>WEB DESIGNER</h5>
+                    <div class="riga-two bg-light"></div>
+                    <h5>GRAPHIC ILLUSTRATOR</h5>
                 </div>
             </div>
         </div>
@@ -50,14 +63,14 @@
     <main>
         <!--main first block-->
         <div class="container-fluid text-center pt-4 pb-4">
-            <h2>PORTFOLIO</h2>
+            <h3>PORTFOLIO</h3>
             <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
                 <div class="riga bg-dark"></div>
                 <i class="fas fa-star"></i>
                 <div class="riga bg-dark"></div>
             </div>
-            <div class="d-flex justify-content-center">
-                <div class="row">
+            <div class="d-flex">
+                <div class="row px-4">
                     <div class="col-sx-12 col-sm-6 col-lg-4 mb-4">
                         <img src="img/cabin.png" class="rounded">
                     </div>
@@ -73,7 +86,7 @@
                     <div class="col-sx-12 col-sm-6 col-lg-4 mb-4">
                         <img src="img/safe.png" class="rounded">
                     </div>
-                    <div class="col-sx-12 col-sm-6 col-lg-4">
+                    <div class="col-sx-12 col-sm-6 col-lg-4 mb-4">
                         <img src="img/submarine.png" class="rounded">
                     </div>
                 </div>
@@ -81,35 +94,31 @@
         </div>
 
         <!--main second block-->
-        <div class="container-fluid bg-info text-white pt-4 pb-4">
-            <h2 class="text-center">ABOUT</h2>
+        <div class="container-fluid background-aqua text-white pt-4 pb-4">
+            <h3 class="text-center">ABOUT</h3>
             <div class="d-flex justify-content-center align-items-center pt-2 pb-3">
                 <div class="riga bg-light"></div>
                 <i class="fas fa-star"></i>
                 <div class="riga bg-light"></div>
             </div>
-            <div class="d-flex justify-content-between px-5">
+            <div class="d-flex px-5">
                 <div class="row">
-                    <div class="col-sx-12 col-sm-6 col-lg-6 mb-4">
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure neque natus harum ad corrupti, maiores voluptatum placeat doloremque perspiciatis in voluptatem sit, facere eligendi tenetur est. Ratione tempora cum deleniti?
-                        </p>
-                    </div>
-                    <div class="col-sx-12 col-sm-6 col-lg-6 mb-4">
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure neque natus harum ad corrupti, maiores voluptatum placeat doloremque perspiciatis in voluptatem sit, facere eligendi tenetur est. Ratione tempora cum deleniti?
-                        </p>
-                    </div>
+                    <p class="col-sm-6 col-lg-6 mb-4">
+                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                    </p>
+                    <p class="col-sm-6 col-lg-6 mb-4">
+                        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                    </p>
                 </div>
             </div>
             <div class="text-center">
-                <button>Download</button>
+                <button class="background-aqua text-white border border-white rounded px-2 py-1"><i class="fas fa-arrow-alt-circle-down"></i> Download</button>
             </div>           
         </div>
 
         <!--main third block-->
         <div class="container-fluid pt-4 pb-4">
-            <h2 class="text-center">CONTACT ME</h2>
+            <h3 class="text-center">CONTACT ME</h3>
             <div class="d-flex justify-content-center align-items-center pt-2 pb-3">
                 <div class="riga bg-dark"></div>
                 <i class="fas fa-star"></i>
@@ -129,7 +138,7 @@
                     <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                 </div>
                 <div>
-                    <button>Send</button>
+                    <button class="background-aqua text-white border-none rounded px-2 py-2">Send</button>
                 </div>
             </div>           
         </div>
@@ -137,36 +146,36 @@
 
     <!--footer-->
     <footer>
-        <div class="container-fluid text-center bg-secondary">
-            <div class="d-flex justify-content-around row text-white pt-3 pb-3">
-                    <div class="col-sx-12 col-sm-4 col-lg-4 mb-4">
-                        <h5>LOCATION</h5>
-                        <p>2215 John Daniel Drive Clark, MO 54243</p>
-                    </div>
-                    <div class="d-flex flex-column align-items-center col-sx-12 col-sm-4 col-lg-4 mb-4">
-                        <h5>AROUND THE WEB</h5>
-                        <div class="d-flex">
-                            <div>
-                                <i class="fab fa-facebook-f"></i> 
-                            </div>
-                            <div>
-                                <i class="fab fa-google-plus-g"></i>
-                            </div>
-                            <div>
-                                <i class="fab fa-twitter"></i>
-                            </div>
-                            <div>
-                                <i class="fab fa-linkedin-in"></i>
-                            </div>
+        <div class="container-fluid text-center bg-secondary text-white pt-5 px-5">
+            <div class="row d-flex justify-content-between">
+                <div class="col-sx-12 col-sm-4 col-lg-4 mb-4">
+                    <h4>LOCATION</h4>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+                <div class="d-flex flex-column align-items-center col-sx-12 col-sm-4 col-lg-4 mb-5">
+                    <h4>AROUND THE WEB</h4>
+                    <div class="d-flex">
+                        <div class="border border-white rounded-circle px-2 py-1 m-1">
+                            <i class="fab fa-facebook-f"></i> 
+                        </div>
+                        <div class="border border-white rounded-circle px-2 py-1 m-1">
+                            <i class="fab fa-google-plus-g"></i>
+                        </div>
+                        <div class="border border-white rounded-circle px-2 py-1 m-1">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="border border-white rounded-circle px-2 py-1 m-1">
+                            <i class="fab fa-linkedin-in"></i>
                         </div>
                     </div>
-                    <div class="col-sx-12 col-sm-4 col-lg-4">
-                        <h5>ABOUT FREELANCER</h5>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by Start Boostrap.</p>
-                    </div>
+                </div>
+                <div class="col-sx-12 col-sm-4 col-lg-4 mb-5">
+                    <h4>ABOUT FREELANCER</h4>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <span class="text-aqua">Start Boostrap</span>.</p>
+                </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center bg-primary pt-3 pb-3">
+        <div class="d-flex justify-content-center align-items-center background-darkgrey text-white pt-3 pb-3">
             <h6>Copyright Your Website 2019</h6>
         </div>
     </footer>
